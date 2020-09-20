@@ -185,7 +185,7 @@ function visualizeStoryData(storyData) {
           plotShadow: false
       },
       title: {
-          text: 'Number of wins<br>of teams in 2011',
+          text: 'Matches<br>won by teams<br>over the years',
           align: 'center',
           verticalAlign: 'middle',
           y: 60
