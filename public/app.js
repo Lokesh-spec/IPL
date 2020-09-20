@@ -196,21 +196,13 @@ function visualizeStoryData(storyData) {
           }
       },
       plotOptions: {
-          pie: {
-              dataLabels: {
-                  enabled: true,
-                  distance: -50,
-                  style: {
-                      fontWeight: 'bold',
-                      color: 'white'
-                  }
-              },
-              startAngle: -90,
-              endAngle: 90,
-              center: ['50%', '75%'],
-              size: '110%'
-          }
-      },
+        pie: {
+            startAngle: -90,
+            endAngle: 90,
+            center: ['50%', '75%'],
+            size: '110%'
+        }
+    },
       series: [{
           type: 'pie',
           name: 'Number of wins of teams in 2011',
