@@ -205,7 +205,7 @@ function visualizeStoryData(storyData) {
     },
       series: [{
           type: 'pie',
-          name: 'Number of matches win by team is',
+          name: 'Number of matches won by team is',
           innerSize: '50%',
           data: seriesData
       }]
