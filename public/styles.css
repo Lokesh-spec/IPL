@@ -1,3 +1,14 @@
 body {
     font-family: sans-serif;
 }
+
+#matches-played-per-year, 
+#matches-won-by-teams-per-year,
+#extra-runs-conceded-by-each-team-in-2016,
+#top-economical-bowlers,
+#story-data  {
+    padding: 100px 50px;
+    border: 1px dotted rgba(23,153,164,0.88);
+    border-radius: 25px 25px 25px 25px;
+}
+
